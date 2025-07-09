@@ -142,6 +142,7 @@ dvc push  # envia os dados para o armazenamento remoto
 - [Exemplo de projeto com DVC + GitHub](https://github.com/iterative/example-get-started)
 - [GitHub Actions para DVC](https://github.com/iterative/setup-dvc)
 - [Guia de MLOps com DVC](https://dvc.org/doc/use-cases/mlops)
+- [AI model performance metrics: in-depth guide](https://nebius.com/blog/posts/ai-model-performance-metrics?form=MG0AV3)
 
 ---
 
