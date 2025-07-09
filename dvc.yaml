@@ -1,0 +1,20 @@
+# Esse pipeline permite que você execute dvc repro para reexecutar o treinamento sempre que os dados, parâmetros ou código forem alterados.
+
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - data/dataset.csv
+      - params.yaml
+    outs:
+      - model.pkl
+    metrics:
+      - metrics.json:
+          cache: false
+    params:
+      - train.test_size
+      - train.random_state
+      - train.n_estimators
+      - train.max_depth
+      - train.learning_rate
