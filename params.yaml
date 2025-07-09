@@ -1,0 +1,9 @@
+# Você pode referenciar esses parâmetros no seu script train.py
+# usando PyYAML para carregá-los dinamicamente.
+
+train:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
+  max_depth: 5
+  learning_rate: 0.1
